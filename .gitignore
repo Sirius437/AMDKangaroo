@@ -1,41 +1,37 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
+# Compiled binaries
+amdkangaroo
 *.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Linker files
-*.ilk
-
-# Debugger Files
-*.pdb
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
 *.a
-*.lib
+*.so
 
-# Executables
-*.exe
-*.out
-*.app
+# Build artifacts
+*.d
+*.dSYM/
 
-# debug information files
-*.dwo
+# Results and data files
+RESULTS.TXT
+*.dat
+*.csv
+*.json
+*.txt
+!LICENSE.TXT
+!README.md
+
+# ROCm profiling output
+/tmp/rpl_data_*
+results.csv
+results.stats.csv
+results.json
+baseline_profile.txt
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Temporary files
+*.tmp
+*.log
