@@ -25,7 +25,7 @@ AMDKangaroo is a fast GPU implementation of the Pollard's Kangaroo algorithm for
 - Verified correct results on multiple test cases
 
 ### 🚀 Performance
-- **1784 Mk/s** on AMD Radeon RX 7900 XTX (37% improvement over baseline)
+- **1300 Mk/s** on AMD Radeon RX 7900 XTX 
 - Optimized kernel parameters for RDNA 3 architecture
 - Structure-of-Arrays (SoA) memory layout for better coalescing
 - x86-64 assembly primitives for host-side operations
