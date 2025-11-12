@@ -274,9 +274,8 @@ For detailed technical information about the port, see:
 
 Contributions are welcome! Areas for improvement:
 - Further performance optimizations
-- Support for older AMD architectures (RDNA 2, RDNA 1, GCN)
-- Multi-GPU testing and optimization
-- Windows/WSL2 support
+- Further compiler optimizations
+- Multi-GPU testing and optimization 
 
 ## License
 
